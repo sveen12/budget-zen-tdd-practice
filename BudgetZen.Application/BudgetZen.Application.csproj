@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BudgetZen.Domain\BudgetZen.Domain.csproj" />
+    <ProjectReference Include="..\BudgetZen.Persistence\BudgetZen.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
