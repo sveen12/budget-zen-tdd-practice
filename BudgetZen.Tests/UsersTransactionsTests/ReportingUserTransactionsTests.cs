@@ -15,6 +15,7 @@ namespace BudgetZen.Tests.UsersTransactionsTests
 
             user.RecordTransaction(amount, description, BudgetTransactionType.Income);
             user.RecordTransaction(amount, description, BudgetTransactionType.Expense);
+            user.RecordTransaction(amount, description, BudgetTransactionType.Expense);
 
             // Act
             TransactionHistoryRecord transactionHistoryRecord = user.GetExpense();
